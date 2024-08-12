@@ -1,0 +1,164 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    font-family: "Montserrat", sans-serif;
+    background-color: #4e4e4e;
+    z-index: 1;
+}
+
+.nav-leftSide{
+    display: flex;
+    align-items:center ;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.nav-rightSide{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    font-size: 14px;
+    padding: 8px 25px;
+    margin-left: 10px;
+    list-style: none;
+   color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.nav-menu ul li:hover{
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0px 0px 15px rgba(205, 204, 204, 0.485);
+    color: black;
+}
+.nav-hireMe {
+    margin-right: 20px;
+}
+.nav-hireMe button{
+    padding: 7px 25px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 10px;
+    border: none;
+}
+.nav-hireMe button:hover{
+    color: white;
+    background-color: rgb(3, 3, 93);
+    cursor: pointer;
+}
+
+body{
+    margin: 0px;
+    cursor: default;
+    
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-body{
+    height: 90vh;
+   background-image: url("image/bg-image.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(183, 101, 1);
+   
+}
+.main-body p{
+    font-size: 50px;
+    font-weight: 600;
+    margin:0px;
+
+}
+.title-company{
+        background-color: #13131393;
+        padding: 50px;
+        position: absolute;
+    }
+/* .down-arrow{
+    text-align: center;
+} */
+ .down-arrow-btn{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+ }
+ .down-arrow-btn img{
+    
+    cursor: pointer;
+ }
+
+
+
+ /* About Section */
+ .about-section{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+.about-demo-image{
+    width: 50%;
+    padding: 20px;
+    margin-left: 20px;
+}
+.about-details{
+    padding: 30px;
+    width: 60%;
+}
+.demo-review{
+    display: flex;
+    align-items: center;
+}
+.happy-client{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.happy-clients-details{
+    margin-left: 10px;
+    padding: 10px;
+}
+.happy-clients-details p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(100, 38, 0);
+}
+.happy-project{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* Service Section */
+.service-section{
+    height: 100vh;
+    text-align: center;
+}
+.services-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service{
+    height: 380px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    /* box-shadow: 0px 0px 1cqi rgba(0, 0, 0, 0.589); */
+}
+.service img{
+    height: 200px;
+}
