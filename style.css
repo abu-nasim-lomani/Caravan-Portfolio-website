@@ -145,7 +145,7 @@ body{
 
 /* Service Section */
 .service-section{
-    height: 100vh;
+    height: 80vh;
     text-align: center;
 }
 .services-card{
@@ -161,4 +161,51 @@ body{
 }
 .service img{
     height: 200px;
+}
+
+
+/* Choose Us */
+.choose-us{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
+    
+}
+.choose-leftSide{
+    width: 40%;
+    margin-right: 10px;
+}
+.card-feature{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    /* margin-top: 30px; */
+
+}
+.top-feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bottom-feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-title{
+    margin-left: 20px;
+}
+.feature-title p{
+    font-size: 14px;
+    /* font-weight: 600; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px;
+}
+
+.choose-rightSide{
+    width: 60%;
+    padding: 30px 0px;
 }
